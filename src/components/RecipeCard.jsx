@@ -10,9 +10,9 @@ function RecipeCard({ recipe }) {
         <p className="text-lg font-semibold text-slate-950">{recipe.description}</p>
       </div>
 
-      <div className="tet-sm text-slate-500 md:text-right">
+      <div className="text-sm text-slate-500 md:text-right">
         <span>{recipe.cookTime} min</span>
-        <span> · {recipe.difficulty} min</span>
+        <span> · {recipe.difficulty}</span>
       </div>
       
     </article>
